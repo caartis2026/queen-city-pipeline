@@ -1,0 +1,25 @@
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets and AWS config (never commit)
+.env
+.aws/
+*.pem
+
+# Data lives in S3, not git
+data/
+*.parquet
+
+# Terraform state
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
